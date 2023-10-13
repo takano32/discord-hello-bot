@@ -1,0 +1,19 @@
+{
+  "name": "discord-hello-bot",
+  "version": "1.0.0",
+  "description": "Hello bot for Discord",
+  "main": "index.ts",
+  "author": "TAKANO Mitsuhiro",
+  "license": "MIT",
+  "scripts":{
+    "run": "npx ts-node src/main.ts",
+    "compile": "npx tsc -p ."
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
