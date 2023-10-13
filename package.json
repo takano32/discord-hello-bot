@@ -6,7 +6,7 @@
   "author": "TAKANO Mitsuhiro",
   "license": "MIT",
   "scripts":{
-    "run": "npx ts-node src/main.ts",
+    "start": "npx ts-node src/main.ts",
     "compile": "npx tsc -p ."
   },
   "dependencies": {
